@@ -1,6 +1,6 @@
 SignApk
 =======
 
-<img src="https://github.com/achellies/signapk/blob/master/signapk.png" width=480>
+<img src="https://github.com/achellies/SignApk/blob/gh-pages/SignApk.png" width=480>
 
 android
