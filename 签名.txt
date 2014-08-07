@@ -1,0 +1,20 @@
+第一种方式：
+jarsigner.exe -verbose -sigfile CERT -keystore keystore文件路径 -storepass keystore的密码 -digestalg SHA1 -sigalg MD5withRSA -signedjar dest_apk sourc_apk keystore_alias_name
+
+
+第二种方式：
+1. 首先编译SignApk.java (src\build\tools\signapk)
+javah SignApk.java
+
+2.  生成jar包
+
+jar cvfm signapk.jar SignApk.mf -Cs\ .
+
+
+3. 签名
+java -jar signapk.jar platform.x509.pem platform.pk8 sourc_apk dest_apk
+
+platform.x509.pem platform.pk8存放在build\target\product\security目录下
+
+生成自己的pk8
+http://www.kandroid.org/online-pdk/guide/release_keys.html

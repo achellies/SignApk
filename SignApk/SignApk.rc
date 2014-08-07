@@ -1,0 +1,168 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XML
+//
+
+IDR_SKINXML             XML                     "res\\skin.xml"
+IDR_XML_MSGBOX          XML                     "res\\msg_box.xml"
+IDR_XML_LIST_ITEM       XML                     "res\\list_item.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BMP
+//
+
+IDR_BMP_BG              BMP                     "res\\bg.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG_MINIMIZE        PNG                     "res\\minimize.png"
+IDR_PNG_MINIMIZE_H      PNG                     "res\\minimize_h.png"
+IDR_PNG_MINIMIZE_P      PNG                     "res\\minimize_p.png"
+IDR_PNG_MAXIMIZE        PNG                     "res\\maximize.png"
+IDR_PNG_MAXIMIZE_H      PNG                     "res\\maximize_h.png"
+IDR_PNG_MAXIMIZE_P      PNG                     "res\\maximize_p.png"
+IDR_PNG_RESTORE         PNG                     "res\\restore.png"
+IDR_PNG_RESTORE_H       PNG                     "res\\restore_h.png"
+IDR_PNG_RESTORE_P       PNG                     "res\\restore_p.png"
+IDR_PNG_CLOSE           PNG                     "res\\close.png"
+IDR_PNG_CLOSE_H         PNG                     "res\\close_h.png"
+IDR_PNG_CLOSE_P         PNG                     "res\\close_p.png"
+IDR_PNG_BUTTON          PNG                     "res\\button.png"
+IDR_PNG_BUTTON_H        PNG                     "res\\button_h.png"
+IDR_PNG_BUTTON_P        PNG                     "res\\button_p.png"
+IDR_PNG_SCROLLBAR_V     PNG                     "res\\scrollbar_v.png"
+IDR_PNG_SCROLLBAR_H     PNG                     "res\\scrollbar_h.png"
+IDR_PNG_BG              PNG                     "res\\bg.png"
+IDR_PNG_LIST_HEADER     PNG                     "res\\list_header.png"
+IDR_PNG_LIST_SELECT     PNG                     "res\\list_select.png"
+IDR_PNG_LIST_HEADER_SEP PNG                     "res\\list_header_sep.png"
+IDR_PNG_SEPERATOR       PNG                     "res\\hui_line.png"
+IDR_PNG_PROGRESS_FG     PNG                     "res\\progress_fg.png"
+IDR_PNG_UNPACK          PNG                     "res\\app_icon.png"
+
+IDR_PNG_RADIO			PNG						"res\\radio.png"
+IDR_PNG_RADIO_H			PNG						"res\\radio_h.png"
+IDR_PNG_RADIO_P			PNG						"res\\radio_p.png"
+IDR_PNG_CHECKBOX		PNG						"res\\checkbox.png"
+IDR_PNG_CHECKBOX_H		PNG						"res\\checkbox_h.png"
+IDR_PNG_CHECKBOX_P		PNG						"res\\checkbox_p.png"
+
+IDR_PNG_PACK			PNG						"res\\pack.png"
+IDR_PNG_SETTING			PNG						"res\\settings.png"
+IDR_PNG_TAB_V			PNG						"res\\sys_set_tab.png"
+IDR_PNG_TAB_V_P			PNG						"res\\sys_set_tab_a.png"
+IDR_PNG_CLEAR			PNG						"res\\clear.png"
+IDR_PNG_ADD				PNG						"res\\add.png"
+IDR_PNG_EDIT			PNG						"res\\edit.png"
+IDR_PNG_DELETE			PNG						"res\\delete.png"
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "SignApk.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "每天一杯水"
+            VALUE "FileVersion", "1. 0. 0. 1"
+            VALUE "LegalCopyright", "Copyright ? 2012 achellies"
+            VALUE "ProductVersion", "1. 0. 0. 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

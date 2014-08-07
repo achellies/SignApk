@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SignApk", "SignApk\SignApk.vcproj", "{EE5C4A06-FE43-4B59-B611-864690D97CBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A3C2C47-9864-4228-A99C-6CDB70F5206C} = {5A3C2C47-9864-4228-A99C-6CDB70F5206C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UIEngine", "UIEngine\UIEngine.vcproj", "{5A3C2C47-9864-4228-A99C-6CDB70F5206C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE5C4A06-FE43-4B59-B611-864690D97CBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE5C4A06-FE43-4B59-B611-864690D97CBA}.Debug|Win32.Build.0 = Debug|Win32
+		{EE5C4A06-FE43-4B59-B611-864690D97CBA}.Release|Win32.ActiveCfg = Release|Win32
+		{EE5C4A06-FE43-4B59-B611-864690D97CBA}.Release|Win32.Build.0 = Release|Win32
+		{5A3C2C47-9864-4228-A99C-6CDB70F5206C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A3C2C47-9864-4228-A99C-6CDB70F5206C}.Debug|Win32.Build.0 = Debug|Win32
+		{5A3C2C47-9864-4228-A99C-6CDB70F5206C}.Release|Win32.ActiveCfg = Release|Win32
+		{5A3C2C47-9864-4228-A99C-6CDB70F5206C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

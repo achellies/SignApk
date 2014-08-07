@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <ListContainerElementEx>
+    <HorizontalLayout padding="0,2,10,0">
+      <VerticalLayout height="24" >
+        <Label name="column1" textpadding="4,0,4,0" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column2" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column3" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column4" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Option name="column11" padding="30,0,0,0" text="推广包" textpadding="20,0,0,0" align="left"  normalimage="res='124' restype='png' dest='0,7,15,22'" hotimage="res='125' restype='png' dest='0,7,15,22'" selectedimage="res='126' restype='png' dest='0,7,15,22'"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column5" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column6" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column7" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column8" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column9" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+      <VerticalLayout height="24">
+        <Label name="column10" height="24" align="left"  showhtml="true"/>
+      </VerticalLayout>
+    </HorizontalLayout>
+  </ListContainerElementEx>
+</Window>
